@@ -1,6 +1,6 @@
 :root {
   --DarkBaseColor: #734e5b;
-  --lighColor-:#C4869C;
+  --lighColor-: #C4869C;
   --baseColor: #e89eb8;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .nav-links a {
-  color: var(--whiteColor);
+  color: white;
   text-decoration: none;
 }
 
@@ -67,13 +67,49 @@ footer {
   color: white;
 }
 
-/* Responsive */
+/* Tablet Styles */
+@media (max-width: 1024px) {
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+}
+
+/* Mobile Styles */
 @media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
   .nav-links {
     flex-direction: column;
     gap: 10px;
+    padding: 10px 0;
   }
   .hero h1 {
     font-size: 32px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+}
+
+/* Small Mobile Screens */
+@media (max-width: 480px) {
+  .hero {
+    height: auto;
+    padding: 40px 10px;
+  }
+  .hero h1 {
+    font-size: 26px;
+  }
+  .hero p {
+    font-size: 14px;
+  }
+  .btn {
+    padding: 8px 18px;
+    font-size: 14px;
   }
 }

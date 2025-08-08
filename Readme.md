@@ -1,28 +1,33 @@
-# Responsive Landing Page
+# 🌐 Responsive Landing Page – Task 4
 
-This is a simple responsive landing page created using **HTML5** and **CSS3** as part of **Task-1** for my Web Development Internship at **ELEVATE LABs**.
+This is a responsive landing page built with **HTML** and **CSS**, created as part of **Task 4** for my Web Development Internship at **ELEVATE LABs**.  
+The page adapts to **desktop, tablet, and mobile screens** using **CSS media queries**.
 
-## 🚀 Features
-- Header with Logo & Navigation Links
-- Hero Section with Heading, Description & Call-to-Action Button
-- Footer Section
-- Responsive Layout using **Flexbox** & **Media Queries**
+---
 
-## 📁 Files
-- `index.html` – HTML structure
-- `style.css` – Styling
-- `README.md` – Project Overview
+## 📌 Features
+- Fully responsive design
+- Modern layout with header, hero section, and footer
+- CSS variables for easy theming
+- Flexbox-based layout
+- Mobile-friendly navigation
 
-## 📷 Screenshot
+---
 
-![Landing Page Screenshot](Screenshot/landingpage.png)
+## 🛠 Technologies Used
+- HTML5
+- CSS3 (Flexbox + Media Queries)
 
+---
 
-## 📌 How to Run
-1. Download the code  
-2. Open `index.html` in your browser  
-3. Resize screen to test responsiveness
+## 📱 Responsive Breakpoints
+- **1024px** – Tablet view
+- **768px** – Mobile view
+- **480px** – Small mobile view
 
+---
 
-
-✅ Internship Task-1 Completed.
+## 🚀 How to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/malkitkang/Intership-task-1
